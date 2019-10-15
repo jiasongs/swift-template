@@ -7,13 +7,20 @@
 //
 
 import UIKit
+import SnapKit
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        print(scrent);
-        zzz()
+        print(SCREEN_WIDTH);
+        print(IS_IPHONE);
+        print(IS_SIMULATOR);
+            DispatchQueue.main.asyncAfter(deadline: .now()+2, execute:
+        {
+            print(IS_SIMULATOR);
+        })
+        
     }
 
 

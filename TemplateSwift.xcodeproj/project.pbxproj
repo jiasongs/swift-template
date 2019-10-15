@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		554DAA9DA422B21A0671A0D7 /* libPods-TemplateSwift.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 09E348CE319E637F374AE353 /* libPods-TemplateSwift.a */; };
+		0062C33AA26420A8C9196B7B /* Pods_TemplateSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6198488732CD22C6C2815A0E /* Pods_TemplateSwift.framework */; };
 		5902AD0D2354880D000CA128 /* Predefine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5902AD0C2354880D000CA128 /* Predefine.swift */; };
 		5902AD0E2354880D000CA128 /* Predefine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5902AD0C2354880D000CA128 /* Predefine.swift */; };
 		5902AD0F2354880D000CA128 /* Predefine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5902AD0C2354880D000CA128 /* Predefine.swift */; };
@@ -39,7 +39,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		09E348CE319E637F374AE353 /* libPods-TemplateSwift.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TemplateSwift.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5902ACFD23548394000CA128 /* TemplateSwift-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TemplateSwift-Bridging-Header.h"; sourceTree = "<group>"; };
 		5902AD0C2354880D000CA128 /* Predefine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Predefine.swift; sourceTree = "<group>"; };
 		595A9B40235478CD00533362 /* TemplateSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TemplateSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -56,6 +55,7 @@
 		595A9B61235478D000533362 /* TemplateSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TemplateSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		595A9B65235478D000533362 /* TemplateSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplateSwiftUITests.swift; sourceTree = "<group>"; };
 		595A9B67235478D000533362 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6198488732CD22C6C2815A0E /* Pods_TemplateSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TemplateSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		926D49CF1F154E18C2DC65E8 /* Pods-TemplateSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TemplateSwift.debug.xcconfig"; path = "Target Support Files/Pods-TemplateSwift/Pods-TemplateSwift.debug.xcconfig"; sourceTree = "<group>"; };
 		C2A732C2FCAA058534CF7C39 /* Pods-TemplateSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TemplateSwift.release.xcconfig"; path = "Target Support Files/Pods-TemplateSwift/Pods-TemplateSwift.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -65,7 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				554DAA9DA422B21A0671A0D7 /* libPods-TemplateSwift.a in Frameworks */,
+				0062C33AA26420A8C9196B7B /* Pods_TemplateSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -210,7 +210,7 @@
 		6A2444AC7684A33B43DC7F36 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				09E348CE319E637F374AE353 /* libPods-TemplateSwift.a */,
+				6198488732CD22C6C2815A0E /* Pods_TemplateSwift.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -226,7 +226,7 @@
 				595A9B3C235478CD00533362 /* Sources */,
 				595A9B3D235478CD00533362 /* Frameworks */,
 				595A9B3E235478CD00533362 /* Resources */,
-				40ADCBEEEEFD9684D22BEC9A /* [CP] Copy Pods Resources */,
+				EFCFE0491F0C88EA4DABB409 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -369,21 +369,21 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		40ADCBEEEEFD9684D22BEC9A /* [CP] Copy Pods Resources */ = {
+		EFCFE0491F0C88EA4DABB409 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-TemplateSwift/Pods-TemplateSwift-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-TemplateSwift/Pods-TemplateSwift-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			name = "[CP] Copy Pods Resources";
+			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-TemplateSwift/Pods-TemplateSwift-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-TemplateSwift/Pods-TemplateSwift-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TemplateSwift/Pods-TemplateSwift-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TemplateSwift/Pods-TemplateSwift-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
