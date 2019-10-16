@@ -9,7 +9,7 @@
 import UIKit
 import SnapKit
 
-class ViewController: UIViewController {
+class ViewController: ZSBaseViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -21,6 +21,7 @@ class ViewController: UIViewController {
             print(IS_SIMULATOR);
         })
         
+    
     }
 
 
