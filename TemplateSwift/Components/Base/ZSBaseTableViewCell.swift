@@ -1,5 +1,5 @@
 //
-//  ZSTableViewCell.swift
+//  ZSBaseTableViewCell.swift
 //  TemplateSwift
 //
 //  Created by RuanMei on 2019/10/16.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ZSTableViewCell: QMUITableViewCell {
+class ZSBaseTableViewCell: QMUITableViewCell {
 
     override func awakeFromNib() {
         super.awakeFromNib()

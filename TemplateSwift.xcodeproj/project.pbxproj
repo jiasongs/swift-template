@@ -37,9 +37,9 @@
 		59FC37222356FCAB00CEB7E6 /* ZSTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59FC37212356FCAB00CEB7E6 /* ZSTableView.swift */; };
 		59FC37232356FCAB00CEB7E6 /* ZSTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59FC37212356FCAB00CEB7E6 /* ZSTableView.swift */; };
 		59FC37242356FCAB00CEB7E6 /* ZSTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59FC37212356FCAB00CEB7E6 /* ZSTableView.swift */; };
-		59FC372A2356FD2F00CEB7E6 /* ZSTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59FC37292356FD2F00CEB7E6 /* ZSTableViewCell.swift */; };
-		59FC372B2356FD2F00CEB7E6 /* ZSTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59FC37292356FD2F00CEB7E6 /* ZSTableViewCell.swift */; };
-		59FC372C2356FD2F00CEB7E6 /* ZSTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59FC37292356FD2F00CEB7E6 /* ZSTableViewCell.swift */; };
+		59FC372A2356FD2F00CEB7E6 /* ZSBaseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59FC37292356FD2F00CEB7E6 /* ZSBaseTableViewCell.swift */; };
+		59FC372B2356FD2F00CEB7E6 /* ZSBaseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59FC37292356FD2F00CEB7E6 /* ZSBaseTableViewCell.swift */; };
+		59FC372C2356FD2F00CEB7E6 /* ZSBaseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59FC37292356FD2F00CEB7E6 /* ZSBaseTableViewCell.swift */; };
 		59FC37302356FE6D00CEB7E6 /* ZSBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59FC372F2356FE6D00CEB7E6 /* ZSBaseViewController.swift */; };
 		59FC37312356FE6D00CEB7E6 /* ZSBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59FC372F2356FE6D00CEB7E6 /* ZSBaseViewController.swift */; };
 		59FC37322356FE6D00CEB7E6 /* ZSBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59FC372F2356FE6D00CEB7E6 /* ZSBaseViewController.swift */; };
@@ -97,7 +97,7 @@
 		59FC37182356FBF400CEB7E6 /* ZSImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZSImageView.swift; sourceTree = "<group>"; };
 		59FC371C2356FC7800CEB7E6 /* ZSButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZSButton.swift; sourceTree = "<group>"; };
 		59FC37212356FCAB00CEB7E6 /* ZSTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZSTableView.swift; sourceTree = "<group>"; };
-		59FC37292356FD2F00CEB7E6 /* ZSTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZSTableViewCell.swift; sourceTree = "<group>"; };
+		59FC37292356FD2F00CEB7E6 /* ZSBaseTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZSBaseTableViewCell.swift; sourceTree = "<group>"; };
 		59FC372F2356FE6D00CEB7E6 /* ZSBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZSBaseViewController.swift; sourceTree = "<group>"; };
 		59FC37332356FFF900CEB7E6 /* ZSNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZSNavigationController.swift; sourceTree = "<group>"; };
 		59FC37382357006700CEB7E6 /* ZSBaseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZSBaseModel.swift; sourceTree = "<group>"; };
@@ -300,7 +300,6 @@
 			isa = PBXGroup;
 			children = (
 				59FC37212356FCAB00CEB7E6 /* ZSTableView.swift */,
-				59FC37292356FD2F00CEB7E6 /* ZSTableViewCell.swift */,
 				59FC373C235700DD00CEB7E6 /* ZSScrollView.swift */,
 			);
 			path = List;
@@ -309,6 +308,7 @@
 		59FC372D2356FE0800CEB7E6 /* Base */ = {
 			isa = PBXGroup;
 			children = (
+				59FC37292356FD2F00CEB7E6 /* ZSBaseTableViewCell.swift */,
 				59FC372F2356FE6D00CEB7E6 /* ZSBaseViewController.swift */,
 				59FC37382357006700CEB7E6 /* ZSBaseModel.swift */,
 				59FC37402357014600CEB7E6 /* ZSBaseView.swift */,
@@ -528,7 +528,7 @@
 				59FC370D2356FB7E00CEB7E6 /* ZSLabel.swift in Sources */,
 				5902AD0D2354880D000CA128 /* Predefine.swift in Sources */,
 				59FC37222356FCAB00CEB7E6 /* ZSTableView.swift in Sources */,
-				59FC372A2356FD2F00CEB7E6 /* ZSTableViewCell.swift in Sources */,
+				59FC372A2356FD2F00CEB7E6 /* ZSBaseTableViewCell.swift in Sources */,
 				595A9B48235478CD00533362 /* ViewController.swift in Sources */,
 				595A9B44235478CD00533362 /* AppDelegate.swift in Sources */,
 				59FC37112356FBAF00CEB7E6 /* ZSTextField.swift in Sources */,
@@ -548,7 +548,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				59FC372B2356FD2F00CEB7E6 /* ZSTableViewCell.swift in Sources */,
+				59FC372B2356FD2F00CEB7E6 /* ZSBaseTableViewCell.swift in Sources */,
 				59FC373A2357006700CEB7E6 /* ZSBaseModel.swift in Sources */,
 				5902AD0E2354880D000CA128 /* Predefine.swift in Sources */,
 				59FC370E2356FB7E00CEB7E6 /* ZSLabel.swift in Sources */,
@@ -569,7 +569,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				59FC372C2356FD2F00CEB7E6 /* ZSTableViewCell.swift in Sources */,
+				59FC372C2356FD2F00CEB7E6 /* ZSBaseTableViewCell.swift in Sources */,
 				59FC373B2357006700CEB7E6 /* ZSBaseModel.swift in Sources */,
 				5902AD0F2354880D000CA128 /* Predefine.swift in Sources */,
 				59FC370F2356FB7E00CEB7E6 /* ZSLabel.swift in Sources */,
