@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5997F4E0235AAE8B005D3640 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5997F4DE235AAE8B005D3640 /* Main.storyboard */; };
 		5997F4E5235AAE8C005D3640 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5997F4E3235AAE8C005D3640 /* LaunchScreen.storyboard */; };
 		5997F4F0235AAE8C005D3640 /* SwiftTemplateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5997F4EF235AAE8C005D3640 /* SwiftTemplateTests.swift */; };
 		5997F4FB235AAE8C005D3640 /* SwiftTemplateUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5997F4FA235AAE8C005D3640 /* SwiftTemplateUITests.swift */; };
@@ -17,9 +16,6 @@
 		5997F52E235AAEF3005D3640 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5997F50D235AAEF2005D3640 /* AppDelegate.swift */; };
 		5997F52F235AAEF3005D3640 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5997F50D235AAEF2005D3640 /* AppDelegate.swift */; };
 		5997F530235AAEF3005D3640 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5997F50D235AAEF2005D3640 /* AppDelegate.swift */; };
-		5997F531235AAEF3005D3640 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5997F50E235AAEF2005D3640 /* SceneDelegate.swift */; };
-		5997F532235AAEF3005D3640 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5997F50E235AAEF2005D3640 /* SceneDelegate.swift */; };
-		5997F533235AAEF3005D3640 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5997F50E235AAEF2005D3640 /* SceneDelegate.swift */; };
 		5997F534235AAEF3005D3640 /* ZSNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5997F511235AAEF2005D3640 /* ZSNavigationController.swift */; };
 		5997F535235AAEF3005D3640 /* ZSNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5997F511235AAEF2005D3640 /* ZSNavigationController.swift */; };
 		5997F536235AAEF3005D3640 /* ZSNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5997F511235AAEF2005D3640 /* ZSNavigationController.swift */; };
@@ -64,6 +60,12 @@
 		5997F55D235AAEF3005D3640 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5997F529235AAEF3005D3640 /* Assets.xcassets */; };
 		5997F55F235AAEF3005D3640 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5997F52A235AAEF3005D3640 /* Info.plist */; };
 		5997F560235AAEF3005D3640 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5997F52A235AAEF3005D3640 /* Info.plist */; };
+		59C90849235AB2E900616EFF /* App+Configure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59C90848235AB2E900616EFF /* App+Configure.swift */; };
+		59C9084A235AB2E900616EFF /* App+Configure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59C90848235AB2E900616EFF /* App+Configure.swift */; };
+		59C9084B235AB2E900616EFF /* App+Configure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59C90848235AB2E900616EFF /* App+Configure.swift */; };
+		59C9084D235AB73500616EFF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59C9084C235AB73500616EFF /* SceneDelegate.swift */; };
+		59C9084E235AB73500616EFF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59C9084C235AB73500616EFF /* SceneDelegate.swift */; };
+		59C9084F235AB73500616EFF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59C9084C235AB73500616EFF /* SceneDelegate.swift */; };
 		70B2385F3F917F9EBE5F1DDD /* Pods_SwiftTemplate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F1149CDE7FB7AF9DCCDBF3B /* Pods_SwiftTemplate.framework */; };
 /* End PBXBuildFile section */
 
@@ -89,7 +91,6 @@
 		1F1149CDE7FB7AF9DCCDBF3B /* Pods_SwiftTemplate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftTemplate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3938ED8EEFB2AE9A4020A324 /* Pods-SwiftTemplate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftTemplate.release.xcconfig"; path = "Target Support Files/Pods-SwiftTemplate/Pods-SwiftTemplate.release.xcconfig"; sourceTree = "<group>"; };
 		5997F4D5235AAE8B005D3640 /* SwiftTemplate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftTemplate.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		5997F4DF235AAE8B005D3640 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5997F4E4235AAE8C005D3640 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5997F4EB235AAE8C005D3640 /* SwiftTemplateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftTemplateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5997F4EF235AAE8C005D3640 /* SwiftTemplateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftTemplateTests.swift; sourceTree = "<group>"; };
@@ -99,7 +100,6 @@
 		5997F4FC235AAE8C005D3640 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5997F50B235AAEF2005D3640 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5997F50D235AAEF2005D3640 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5997F50E235AAEF2005D3640 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		5997F511235AAEF2005D3640 /* ZSNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZSNavigationController.swift; sourceTree = "<group>"; };
 		5997F513235AAEF2005D3640 /* ZSButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZSButton.swift; sourceTree = "<group>"; };
 		5997F515235AAEF2005D3640 /* ZSImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZSImageView.swift; sourceTree = "<group>"; };
@@ -116,6 +116,8 @@
 		5997F529235AAEF3005D3640 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5997F52A235AAEF3005D3640 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		59C90844235AB0BE00616EFF /* SwiftTemplate-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SwiftTemplate-Bridging-Header.h"; sourceTree = "<group>"; };
+		59C90848235AB2E900616EFF /* App+Configure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "App+Configure.swift"; sourceTree = "<group>"; };
+		59C9084C235AB73500616EFF /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -176,7 +178,6 @@
 				5997F50A235AAEF2005D3640 /* Modules */,
 				5997F527235AAEF3005D3640 /* Utils */,
 				5997F528235AAEF3005D3640 /* Resource */,
-				5997F4DE235AAE8B005D3640 /* Main.storyboard */,
 				5997F4E3235AAE8C005D3640 /* LaunchScreen.storyboard */,
 			);
 			path = SwiftTemplate;
@@ -211,6 +212,7 @@
 		5997F509235AAEF2005D3640 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
+				59C90848235AB2E900616EFF /* App+Configure.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -227,7 +229,7 @@
 			isa = PBXGroup;
 			children = (
 				5997F50D235AAEF2005D3640 /* AppDelegate.swift */,
-				5997F50E235AAEF2005D3640 /* SceneDelegate.swift */,
+				59C9084C235AB73500616EFF /* SceneDelegate.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -466,7 +468,6 @@
 			files = (
 				5997F4E5235AAE8C005D3640 /* LaunchScreen.storyboard in Resources */,
 				5997F55B235AAEF3005D3640 /* Assets.xcassets in Resources */,
-				5997F4E0235AAE8B005D3640 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -544,14 +545,15 @@
 				5997F52E235AAEF3005D3640 /* AppDelegate.swift in Sources */,
 				5997F52B235AAEF3005D3640 /* ViewController.swift in Sources */,
 				5997F53D235AAEF3005D3640 /* ZSScrollView.swift in Sources */,
+				59C9084D235AB73500616EFF /* SceneDelegate.swift in Sources */,
 				5997F555235AAEF3005D3640 /* ZSBaseTableViewCell.swift in Sources */,
 				5997F552235AAEF3005D3640 /* ZSBaseModel.swift in Sources */,
 				5997F543235AAEF3005D3640 /* ZSLabel.swift in Sources */,
 				5997F540235AAEF3005D3640 /* ZSTableView.swift in Sources */,
 				5997F54C235AAEF3005D3640 /* ZSBaseViewController.swift in Sources */,
+				59C90849235AB2E900616EFF /* App+Configure.swift in Sources */,
 				5997F558235AAEF3005D3640 /* Predefine.swift in Sources */,
 				5997F53A235AAEF3005D3640 /* ZSImageView.swift in Sources */,
-				5997F531235AAEF3005D3640 /* SceneDelegate.swift in Sources */,
 				5997F537235AAEF3005D3640 /* ZSButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -560,6 +562,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				59C9084A235AB2E900616EFF /* App+Configure.swift in Sources */,
 				5997F54A235AAEF3005D3640 /* ZSTextView.swift in Sources */,
 				5997F538235AAEF3005D3640 /* ZSButton.swift in Sources */,
 				5997F54D235AAEF3005D3640 /* ZSBaseViewController.swift in Sources */,
@@ -570,10 +573,10 @@
 				5997F547235AAEF3005D3640 /* ZSTextField.swift in Sources */,
 				5997F53E235AAEF3005D3640 /* ZSScrollView.swift in Sources */,
 				5997F544235AAEF3005D3640 /* ZSLabel.swift in Sources */,
+				59C9084E235AB73500616EFF /* SceneDelegate.swift in Sources */,
 				5997F541235AAEF3005D3640 /* ZSTableView.swift in Sources */,
 				5997F550235AAEF3005D3640 /* ZSBaseView.swift in Sources */,
 				5997F4F0235AAE8C005D3640 /* SwiftTemplateTests.swift in Sources */,
-				5997F532235AAEF3005D3640 /* SceneDelegate.swift in Sources */,
 				5997F553235AAEF3005D3640 /* ZSBaseModel.swift in Sources */,
 				5997F535235AAEF3005D3640 /* ZSNavigationController.swift in Sources */,
 				5997F556235AAEF3005D3640 /* ZSBaseTableViewCell.swift in Sources */,
@@ -584,6 +587,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				59C9084B235AB2E900616EFF /* App+Configure.swift in Sources */,
 				5997F54B235AAEF3005D3640 /* ZSTextView.swift in Sources */,
 				5997F539235AAEF3005D3640 /* ZSButton.swift in Sources */,
 				5997F54E235AAEF3005D3640 /* ZSBaseViewController.swift in Sources */,
@@ -594,10 +598,10 @@
 				5997F548235AAEF3005D3640 /* ZSTextField.swift in Sources */,
 				5997F53F235AAEF3005D3640 /* ZSScrollView.swift in Sources */,
 				5997F545235AAEF3005D3640 /* ZSLabel.swift in Sources */,
+				59C9084F235AB73500616EFF /* SceneDelegate.swift in Sources */,
 				5997F542235AAEF3005D3640 /* ZSTableView.swift in Sources */,
 				5997F551235AAEF3005D3640 /* ZSBaseView.swift in Sources */,
 				5997F4FB235AAE8C005D3640 /* SwiftTemplateUITests.swift in Sources */,
-				5997F533235AAEF3005D3640 /* SceneDelegate.swift in Sources */,
 				5997F554235AAEF3005D3640 /* ZSBaseModel.swift in Sources */,
 				5997F536235AAEF3005D3640 /* ZSNavigationController.swift in Sources */,
 				5997F557235AAEF3005D3640 /* ZSBaseTableViewCell.swift in Sources */,
@@ -620,14 +624,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		5997F4DE235AAE8B005D3640 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5997F4DF235AAE8B005D3640 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		5997F4E3235AAE8C005D3640 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

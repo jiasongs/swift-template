@@ -13,6 +13,7 @@ class ViewController: ZSBaseViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.view.backgroundColor = UIColor.white;
         print(SCREEN_WIDTH);
         print(IS_IPHONE);
         print(IS_SIMULATOR);
