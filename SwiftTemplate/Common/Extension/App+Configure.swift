@@ -7,6 +7,19 @@
 //
 
 import Foundation
+import IQKeyboardManagerSwift
+
+private func _configureIQKeyboard() -> Void {
+    let keyboard = IQKeyboardManager.shared;
+    keyboard.enable = true
+    keyboard.shouldResignOnTouchOutside = true
+    let disabledClass = [
+        QMUIAlertController.self,
+        QMUIDialogViewController.self,
+        QMUIModalPresentationViewController.self
+    ]
+    keyboard.disabledDistanceHandlingClasses.append(contentsOf: disabledClass)
+}
 
 // 抽取公共的方法
 extension AppDelegate {
@@ -18,36 +31,10 @@ extension AppDelegate {
         return window;
     }
     
-    // 唤起app时
-    @available(iOS 9.0, *)
-    func application(_ app: UIApplication, open url: URL, options: [UIApplication.OpenURLOptionsKey : Any] = [:]) -> Bool {
-        return true
+    func configureIQKeyboard() -> Void {
+        _configureIQKeyboard()
     }
     
-    // iOS 8-10 点击远程消息推送
-    @available(iOS, introduced: 3.0, deprecated: 10.0)
-    func application(_ application: UIApplication, didReceiveRemoteNotification userInfo: [AnyHashable : Any]) {
-        
-    }
-    
-    // iOS 8-10 点击本地消息推送
-    @available(iOS, introduced: 3.0, deprecated: 10.0)
-    func application(_ application: UIApplication, didReceive notification: UILocalNotification) {
-        
-    }
-    
-    
-    // iOS 10+ 处理前台收到通知的代理方法
-    @available(iOS 10.0, *)
-    func userNotificationCenter(_ center: UNUserNotificationCenter, willPresent notification: UNNotification, withCompletionHandler completionHandler: @escaping (UNNotificationPresentationOptions) -> Void) {
-        
-    }
-    
-    // iOS 10+ 点击消息推送的方法，包括点击本地推送
-    @available(iOS 10.0, *)
-    func userNotificationCenter(_ center: UNUserNotificationCenter, didReceive response: UNNotificationResponse, withCompletionHandler completionHandler: @escaping () -> Void) {
-        
-    }
 }
 
 @available(iOS 13.0, *)
@@ -61,30 +48,8 @@ extension SceneDelegate {
         return window;
     }
     
-    
-    func sceneDidDisconnect(_ scene: UIScene) {
-        
+    func configureIQKeyboard() -> Void {
+        _configureIQKeyboard()
     }
-    
-    func sceneDidBecomeActive(_ scene: UIScene) {
-        
-    }
-    
-    func sceneWillResignActive(_ scene: UIScene) {
-        
-    }
-    
-    func sceneWillEnterForeground(_ scene: UIScene) {
-        
-    }
-    
-    func sceneDidEnterBackground(_ scene: UIScene) {
-        
-    }
-    
-    func scene(_ scene: UIScene, openURLContexts URLContexts: Set<UIOpenURLContext>) {
-        
-    }
-    
     
 }

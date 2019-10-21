@@ -10,6 +10,8 @@ target 'SwiftTemplate' do
   pod 'SnapKit', '~> 4.2.0' # 布局
   pod "PromiseKit", "~> 6.10.0" # 处理异步回调
   pod 'RxSwift', '~> 5.0.0' # 响应式编程
+  pod 'IQKeyboardManagerSwift', '~> 6.5.1'  # 智能键盘管理
+  pod 'Kingfisher', '~> 4.10.1' # 图像加载
   # Objective-C
   pod 'MJRefresh', '~> 3.2.0' # 下拉刷新
   pod 'QMUIKit', '~> 4.0.2' # UI库

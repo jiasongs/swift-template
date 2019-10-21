@@ -172,7 +172,7 @@ var NavigationContentTopConstant: CGFloat {
 var SafeAreaInsetsConstantForDeviceWithNotch: UIEdgeInsets {
     return QMUIHelper.safeAreaInsetsForDeviceWithNotch();
 }
-
+// MARK: 方法
 /// 区分全面屏（iPhone X 系列）和非全面屏
 func PreferredValueForNotchedDevice(notchedDevice: CGFloat, otherDevice: CGFloat) -> CGFloat {
     return QMUIHelper.isNotchedScreen() ? notchedDevice : otherDevice

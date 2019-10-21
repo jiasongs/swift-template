@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		597EDA74235D403100F22879 /* App+Notification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 597EDA73235D403100F22879 /* App+Notification.swift */; };
+		597EDA75235D403100F22879 /* App+Notification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 597EDA73235D403100F22879 /* App+Notification.swift */; };
+		597EDA76235D403100F22879 /* App+Notification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 597EDA73235D403100F22879 /* App+Notification.swift */; };
+		597EDA78235D40D400F22879 /* App+Link.swift in Sources */ = {isa = PBXBuildFile; fileRef = 597EDA77235D40D400F22879 /* App+Link.swift */; };
+		597EDA79235D40D400F22879 /* App+Link.swift in Sources */ = {isa = PBXBuildFile; fileRef = 597EDA77235D40D400F22879 /* App+Link.swift */; };
+		597EDA7A235D40D400F22879 /* App+Link.swift in Sources */ = {isa = PBXBuildFile; fileRef = 597EDA77235D40D400F22879 /* App+Link.swift */; };
+		597EDA7C235D411900F22879 /* App+Lifecycle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 597EDA7B235D411900F22879 /* App+Lifecycle.swift */; };
+		597EDA7D235D411900F22879 /* App+Lifecycle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 597EDA7B235D411900F22879 /* App+Lifecycle.swift */; };
+		597EDA7E235D411900F22879 /* App+Lifecycle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 597EDA7B235D411900F22879 /* App+Lifecycle.swift */; };
 		5997F4E5235AAE8C005D3640 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5997F4E3235AAE8C005D3640 /* LaunchScreen.storyboard */; };
 		5997F4F0235AAE8C005D3640 /* SwiftTemplateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5997F4EF235AAE8C005D3640 /* SwiftTemplateTests.swift */; };
 		5997F4FB235AAE8C005D3640 /* SwiftTemplateUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5997F4FA235AAE8C005D3640 /* SwiftTemplateUITests.swift */; };
@@ -90,6 +99,9 @@
 		0B7B3FAE4DA5D93A4444E2A3 /* Pods-SwiftTemplate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftTemplate.debug.xcconfig"; path = "Target Support Files/Pods-SwiftTemplate/Pods-SwiftTemplate.debug.xcconfig"; sourceTree = "<group>"; };
 		1F1149CDE7FB7AF9DCCDBF3B /* Pods_SwiftTemplate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftTemplate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3938ED8EEFB2AE9A4020A324 /* Pods-SwiftTemplate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftTemplate.release.xcconfig"; path = "Target Support Files/Pods-SwiftTemplate/Pods-SwiftTemplate.release.xcconfig"; sourceTree = "<group>"; };
+		597EDA73235D403100F22879 /* App+Notification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "App+Notification.swift"; sourceTree = "<group>"; };
+		597EDA77235D40D400F22879 /* App+Link.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "App+Link.swift"; sourceTree = "<group>"; };
+		597EDA7B235D411900F22879 /* App+Lifecycle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "App+Lifecycle.swift"; sourceTree = "<group>"; };
 		5997F4D5235AAE8B005D3640 /* SwiftTemplate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftTemplate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5997F4E4235AAE8C005D3640 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5997F4EB235AAE8C005D3640 /* SwiftTemplateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftTemplateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -213,6 +225,9 @@
 			isa = PBXGroup;
 			children = (
 				59C90848235AB2E900616EFF /* App+Configure.swift */,
+				597EDA7B235D411900F22879 /* App+Lifecycle.swift */,
+				597EDA73235D403100F22879 /* App+Notification.swift */,
+				597EDA77235D40D400F22879 /* App+Link.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -549,12 +564,15 @@
 				5997F555235AAEF3005D3640 /* ZSBaseTableViewCell.swift in Sources */,
 				5997F552235AAEF3005D3640 /* ZSBaseModel.swift in Sources */,
 				5997F543235AAEF3005D3640 /* ZSLabel.swift in Sources */,
+				597EDA74235D403100F22879 /* App+Notification.swift in Sources */,
 				5997F540235AAEF3005D3640 /* ZSTableView.swift in Sources */,
 				5997F54C235AAEF3005D3640 /* ZSBaseViewController.swift in Sources */,
 				59C90849235AB2E900616EFF /* App+Configure.swift in Sources */,
 				5997F558235AAEF3005D3640 /* Predefine.swift in Sources */,
+				597EDA7C235D411900F22879 /* App+Lifecycle.swift in Sources */,
 				5997F53A235AAEF3005D3640 /* ZSImageView.swift in Sources */,
 				5997F537235AAEF3005D3640 /* ZSButton.swift in Sources */,
+				597EDA78235D40D400F22879 /* App+Link.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -576,9 +594,12 @@
 				59C9084E235AB73500616EFF /* SceneDelegate.swift in Sources */,
 				5997F541235AAEF3005D3640 /* ZSTableView.swift in Sources */,
 				5997F550235AAEF3005D3640 /* ZSBaseView.swift in Sources */,
+				597EDA79235D40D400F22879 /* App+Link.swift in Sources */,
 				5997F4F0235AAE8C005D3640 /* SwiftTemplateTests.swift in Sources */,
+				597EDA75235D403100F22879 /* App+Notification.swift in Sources */,
 				5997F553235AAEF3005D3640 /* ZSBaseModel.swift in Sources */,
 				5997F535235AAEF3005D3640 /* ZSNavigationController.swift in Sources */,
+				597EDA7D235D411900F22879 /* App+Lifecycle.swift in Sources */,
 				5997F556235AAEF3005D3640 /* ZSBaseTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -601,9 +622,12 @@
 				59C9084F235AB73500616EFF /* SceneDelegate.swift in Sources */,
 				5997F542235AAEF3005D3640 /* ZSTableView.swift in Sources */,
 				5997F551235AAEF3005D3640 /* ZSBaseView.swift in Sources */,
+				597EDA7A235D40D400F22879 /* App+Link.swift in Sources */,
 				5997F4FB235AAE8C005D3640 /* SwiftTemplateUITests.swift in Sources */,
+				597EDA76235D403100F22879 /* App+Notification.swift in Sources */,
 				5997F554235AAEF3005D3640 /* ZSBaseModel.swift in Sources */,
 				5997F536235AAEF3005D3640 /* ZSNavigationController.swift in Sources */,
+				597EDA7E235D411900F22879 /* App+Lifecycle.swift in Sources */,
 				5997F557235AAEF3005D3640 /* ZSBaseTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

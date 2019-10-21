@@ -21,6 +21,7 @@ class ViewController: ZSBaseViewController {
         {
             print(IS_SIMULATOR);
         })
+      
    
     }
 
