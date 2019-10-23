@@ -5,7 +5,7 @@ use_frameworks!
 target 'SwiftTemplate' do
   
   # Swift
-  pod 'Alamofire', '~> 4.9.0' # 网络请求
+  pod 'Moya', '~> 13.0.1' # 网络请求Alamofire的上层封装
   pod 'KakaJSON', '~> 1.1.0' # model解析
   pod 'SnapKit', '~> 4.2.0' # 布局
   pod "PromiseKit", "~> 6.10.0" # 处理异步回调

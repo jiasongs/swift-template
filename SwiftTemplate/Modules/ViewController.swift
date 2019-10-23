@@ -17,12 +17,6 @@ class ViewController: ZSBaseViewController {
         print(SCREEN_WIDTH);
         print(IS_IPHONE);
         print(IS_SIMULATOR);
-            DispatchQueue.main.asyncAfter(deadline: .now()+2, execute:
-        {
-            print(IS_SIMULATOR);
-        })
-      
-   
     }
 
 

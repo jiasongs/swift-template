@@ -155,7 +155,6 @@ var StatusBarHeightConstant: CGFloat {
     }
 }
 /// navigationBar 的静态高度
-//#define NavigationBarHeight (IS_IPAD ? (IOS_VERSION >= 12.0 ? 50 : 44) : (IS_LANDSCAPE ? PreferredValueForVisualDevice(44, 32) : 44))
 var NavigationBarHeight: CGFloat {
     return (IS_IPAD ? (IOS_VERSION >= 12.0 ? 50 : 44) : (IS_LANDSCAPE ? PreferredValueForVisualDevice(regular: 44, compact: 32) : 44))
 }
