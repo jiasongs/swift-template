@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		021BFC42947F83230A894DD8 /* libPods-SwiftTemplate.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C83010899052D838A886598 /* libPods-SwiftTemplate.a */; };
 		597EDA74235D403100F22879 /* App+Notification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 597EDA73235D403100F22879 /* App+Notification.swift */; };
 		597EDA75235D403100F22879 /* App+Notification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 597EDA73235D403100F22879 /* App+Notification.swift */; };
 		597EDA76235D403100F22879 /* App+Notification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 597EDA73235D403100F22879 /* App+Notification.swift */; };
@@ -75,7 +76,6 @@
 		59C9084D235AB73500616EFF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59C9084C235AB73500616EFF /* SceneDelegate.swift */; };
 		59C9084E235AB73500616EFF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59C9084C235AB73500616EFF /* SceneDelegate.swift */; };
 		59C9084F235AB73500616EFF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59C9084C235AB73500616EFF /* SceneDelegate.swift */; };
-		70B2385F3F917F9EBE5F1DDD /* Pods_SwiftTemplate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F1149CDE7FB7AF9DCCDBF3B /* Pods_SwiftTemplate.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -97,7 +97,7 @@
 
 /* Begin PBXFileReference section */
 		0B7B3FAE4DA5D93A4444E2A3 /* Pods-SwiftTemplate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftTemplate.debug.xcconfig"; path = "Target Support Files/Pods-SwiftTemplate/Pods-SwiftTemplate.debug.xcconfig"; sourceTree = "<group>"; };
-		1F1149CDE7FB7AF9DCCDBF3B /* Pods_SwiftTemplate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftTemplate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C83010899052D838A886598 /* libPods-SwiftTemplate.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SwiftTemplate.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3938ED8EEFB2AE9A4020A324 /* Pods-SwiftTemplate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftTemplate.release.xcconfig"; path = "Target Support Files/Pods-SwiftTemplate/Pods-SwiftTemplate.release.xcconfig"; sourceTree = "<group>"; };
 		597EDA73235D403100F22879 /* App+Notification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "App+Notification.swift"; sourceTree = "<group>"; };
 		597EDA77235D40D400F22879 /* App+Link.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "App+Link.swift"; sourceTree = "<group>"; };
@@ -137,7 +137,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				70B2385F3F917F9EBE5F1DDD /* Pods_SwiftTemplate.framework in Frameworks */,
+				021BFC42947F83230A894DD8 /* libPods-SwiftTemplate.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -369,7 +369,7 @@
 		C3E28555672413FE0B5AC6E5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				1F1149CDE7FB7AF9DCCDBF3B /* Pods_SwiftTemplate.framework */,
+				2C83010899052D838A886598 /* libPods-SwiftTemplate.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -385,7 +385,7 @@
 				5997F4D1235AAE8B005D3640 /* Sources */,
 				5997F4D2235AAE8B005D3640 /* Frameworks */,
 				5997F4D3235AAE8B005D3640 /* Resources */,
-				07DF5D0805C656CE3B983D92 /* [CP] Embed Pods Frameworks */,
+				4D74C7461D74882AE043C70D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -507,23 +507,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		07DF5D0805C656CE3B983D92 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SwiftTemplate/Pods-SwiftTemplate-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SwiftTemplate/Pods-SwiftTemplate-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwiftTemplate/Pods-SwiftTemplate-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		0BEB3948DE2AC4A51687AC8D /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -544,6 +527,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4D74C7461D74882AE043C70D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftTemplate/Pods-SwiftTemplate-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftTemplate/Pods-SwiftTemplate-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwiftTemplate/Pods-SwiftTemplate-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
